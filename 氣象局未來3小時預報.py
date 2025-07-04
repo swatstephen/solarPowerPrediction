@@ -6,7 +6,7 @@ from datetime import datetime
 def info():
     weather = {'陰時多雲短暫陣雨或雷雨':'陰有雨','陰短暫陣雨或雷雨':'陰有雨','多雲時晴':'多雲','陰短暫雨':'有雨','陰時多雲短暫雨':'陰有雨','多雲':'多雲','多雲時陰':'多雲','晴時多雲':'晴','多雲午後短暫雷陣雨':'多雲有雷','陰時多雲':'陰天','陰天':'陰天', '陰時多雲陣雨或雷雨':'陰有雨','陰時多雲短暫陣雨':'陰有雨'}
 
-    url = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-23A85806-5FF0-4163-A006-FE38B48F7500'
+    url = 'https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWA-23A85806-5FF0-4163-A006-FE38B48FXXXX'
 
 
     data = requests.get(url, timeout=10)
